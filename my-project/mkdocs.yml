@@ -56,3 +56,5 @@ copyright: Copyright &copy; 2026 Iskandar
 
 extra:
   generator: false
+
+site_dir: ../docs
