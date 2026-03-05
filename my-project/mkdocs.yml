@@ -1,1 +1,58 @@
-site_name: My Docs
+site_name: Портфолио Карамова Искандара
+site_description: обо мне и мои проекты
+site_author: Karamov Iskandar
+
+theme:
+  name: material
+  language: ru
+  palette:
+    # Светлая тема
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Переключить на ночной режим
+    # Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Переключить на дневной режим
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - footnotes
+  - tables
+  - attr_list
+
+nav:
+  - Главная: index.md
+  - Обо мне: aboutme.md
+  - Лабараторные работы:
+      - labs/lr1.md
+      - labs/lr2.md
+
+
+copyright: Copyright &copy; 2026 Iskandar
+
+extra:
+  generator: false
