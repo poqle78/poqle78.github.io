@@ -26,7 +26,7 @@ jobs:
       - name: Install packages
         run: pip install --no-cache-dir -r requirements.txt
       - name: Build pages
-        run: mkdocs build
+        run: mkdocs build -d ./site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
