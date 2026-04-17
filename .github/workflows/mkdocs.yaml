@@ -22,7 +22,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v6.2.0
         with:
-          python-version: '3.13'
+          python-version: '3.12'
       - name: Install packages
         run: pip install --no-cache-dir -r requirements.txt
       - name: Build pages

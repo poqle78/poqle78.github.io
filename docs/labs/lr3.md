@@ -47,3 +47,7 @@ git remote -v
 в workflow указан раннер ```runs-on ubutsu-latest```
 
 Результат:
+https://poq1e.sourcecraft.site/static-site/
+https://sourcecraft.dev/poq1e/static-site
+https://github.com/poqle78/poqle78.github.io
+https://poqle78.github.io
