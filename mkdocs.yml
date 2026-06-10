@@ -51,6 +51,12 @@ nav:
       - labs/lr1.md
       - labs/lr2.md
       - labs/lr3.md
+      - labs/lr4.md
+      - labs/lr5.md
+      - labs/lr6.md
+      - labs/lr7.md
+      - labs/lr8.md
+      - labs/lr9.md
   - Мои контакты: contacts.md
 
 
@@ -58,3 +64,4 @@ copyright: Copyright &copy; 2026 Iskandar
 
 extra:
   generator: false
+
